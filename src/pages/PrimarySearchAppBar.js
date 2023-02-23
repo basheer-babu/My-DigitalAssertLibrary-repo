@@ -122,7 +122,7 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   }));
   
 const navItems = ['Home', 'Products', 'My Components'];
-const navItem = [{title:'Home',path:'/'}, {title:'Products',path:'products/search'}, {title:'My Components',path:'sidenav'}];
+const navItem = [{title:'Home',path:'/'}, {title:'Products',path:'products/search'}, {title:'My Components',path:'sidenav'},{title:'Drawer',path:'drawer'}];
 export default function PrimarySearchAppBar() {
     const theme = useTheme();
   const [anchorEl, setAnchorEl] = React.useState(null);

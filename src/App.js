@@ -10,9 +10,11 @@ import ListProducts from "./pages/ListProducts";
 import AddProduct from "./pages/AddProduct";
 import ProductDisplay from "./pages/ProductDisplay";
 import SideNav from "./pages/reusableComponents/SideNav";
-import Alert from "./pages/reusableComponents/Alert";
+// import Alert from "./pages/reusableComponents/CustomizedSnackbars";
 import PrimarySearchAppBar from "./pages/PrimarySearchAppBar";
 import PersistentDrawerLeft from "./pages/PersistentDrawerLeft";
+import CustomizedSnackbars from "./pages/reusableComponents/CustomizedSnackbars";
+import PermanentDrawerLeft from "./pages/PermanentDrawerLeft";
 function App() {
   return (
     <Router>
@@ -27,10 +29,11 @@ function App() {
      {/* <PersistentDrawerLeft/> */}
     <Routes>
       <Route path="/" element={<PrimarySearchAppBar />} >
+      <Route path="drawer" element={<PermanentDrawerLeft />} />
       <Route path="sidenav" element={<SideNav />} >
-      <Route path="alert" element={<Alert />} />
+      <Route path="alert" element={<CustomizedSnackbars />} />
       </Route>
-      
+     
       {/* <Route path="login" element={<Login />} /> */}
       <Route path="products" element={<Products />}>
         <Route path="search" element={<Search />} />
