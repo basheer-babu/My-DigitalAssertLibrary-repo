@@ -15,6 +15,7 @@ import PrimarySearchAppBar from "./pages/PrimarySearchAppBar";
 import PersistentDrawerLeft from "./pages/PersistentDrawerLeft";
 import CustomizedSnackbars from "./pages/reusableComponents/CustomizedSnackbars";
 import PermanentDrawerLeft from "./pages/PermanentDrawerLeft";
+import ProjectCard from "./pages/reusableComponents/ProjectCard";
 function App() {
   return (
     <Router>
@@ -32,6 +33,7 @@ function App() {
       <Route path="drawer" element={<PermanentDrawerLeft />} />
       <Route path="sidenav" element={<SideNav />} >
       <Route path="alert" element={<CustomizedSnackbars />} />
+      <Route path="card" element={<ProjectCard />} />
       </Route>
      
       {/* <Route path="login" element={<Login />} /> */}
