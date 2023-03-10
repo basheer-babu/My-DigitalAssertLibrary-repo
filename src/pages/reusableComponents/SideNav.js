@@ -39,20 +39,16 @@ function SideNav() {
                   <span class="d-none d-sm-inline">Card</span> {" "}
                 </a>
               </li>
-
-              <li>
-                <a href="/abc" class="nav-link px-0 align-middle">
-                  <i class="fs-4 bi-table"></i>{" "}
-                  <span class="ms-1 d-none d-sm-inline">Orders</span>
+              <li  class="w-100">
+                <a href="/sidenav/paper" class="nav-link px-0">
+                  {" "}
+                  <span class="d-none d-sm-inline">Paper</span> {" "}
                 </a>
               </li>
 
-              <li>
-                <a href="/abc" class="nav-link px-0 align-middle">
-                  <i class="fs-4 bi-people"></i>{" "}
-                  <span class="ms-1 d-none d-sm-inline">Customers</span>{" "}
-                </a>
-              </li>
+             
+
+              
             </ul>
             <hr />
           </div>

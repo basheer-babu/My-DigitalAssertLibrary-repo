@@ -16,6 +16,7 @@ import PersistentDrawerLeft from "./pages/PersistentDrawerLeft";
 import CustomizedSnackbars from "./pages/reusableComponents/CustomizedSnackbars";
 import PermanentDrawerLeft from "./pages/PermanentDrawerLeft";
 import ProjectCard from "./pages/reusableComponents/ProjectCard";
+import PaperList from "./pages/reusableComponents/Paper";
 function App() {
   return (
     <Router>
@@ -33,6 +34,7 @@ function App() {
       <Route path="drawer" element={<PermanentDrawerLeft />} />
       <Route path="sidenav" element={<SideNav />} >
       <Route path="alert" element={<CustomizedSnackbars />} />
+      <Route path="paper" element={<PaperList />} />
       <Route path="card" element={<ProjectCard />} />
       </Route>
      

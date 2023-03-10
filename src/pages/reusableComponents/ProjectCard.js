@@ -18,7 +18,7 @@ const faces = [
 function ProjectCard({ classes }) {
   return (
     <div className='d-flex justify-content-center'>
-    <Card sx={{ maxWidth: 345, ':hover':{boxShadow: 20} }}>
+    <Card sx={{ maxWidth: 300, ':hover':{boxShadow: 20} }}>
     <CardActionArea>
       <CardMedia
         component="img"
