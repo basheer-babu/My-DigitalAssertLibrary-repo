@@ -45,6 +45,18 @@ function SideNav() {
                   <span class="d-none d-sm-inline">Paper</span> {" "}
                 </a>
               </li>
+               <li  class="w-100">
+                <a href="/sidenav/pdfreader" class="nav-link px-0">
+                  {" "}
+                  <span class="d-none d-sm-inline">PDF Reader</span> {" "}
+                </a>
+              </li>
+              <li  class="w-100">
+                <a href="/sidenav/easycrop" class="nav-link px-0">
+                  {" "}
+                  <span class="d-none d-sm-inline">Easy Crop</span> {" "}
+                </a>
+              </li>
 
              
 
